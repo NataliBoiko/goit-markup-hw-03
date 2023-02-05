@@ -353,7 +353,6 @@ flex-wrap: wrap;
 .gallery-item-second {
 margin-right: 24px;
 margin-bottom: 48px;
-padding-bottom: 32px;
 max-width: 358px;
 background: #FFFFFF;
 border-right: 1px solid #E7E9FC;
@@ -371,4 +370,6 @@ margin-bottom: 0;
  .gallery-item-wrap {
   padding-top: 32px;
   padding-bottom: 32px;
- }
+  padding-left: 16px;
+
+}
