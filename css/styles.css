@@ -55,7 +55,6 @@ cursor: pointer;
 display: flex;
 background: #FFFFFF;
 border-bottom: 1px solid #E7E9FC;
-min-width: 1440px;
 }
 .header-container {
 display: flex;
@@ -252,11 +251,11 @@ display: block;
 .team {
 padding-bottom: 120px;
 background: #F4F4FD;
+padding-top: 120px;
 }
 .team-title {
 display: flex;
 justify-content: center;
-padding-top: 120px;
 margin-bottom: 72px;
 font-size: 36px;
 line-height: 1.11;
@@ -276,17 +275,19 @@ border-radius: 0px 0px 4px 4px;
 .team-item:last-child {
 margin-right: 0;
 }
+.team-item-wrap {
+ padding-top: 32px;
+ padding-bottom: 32px;
+}
 .team-title-after {
 display: flex;
 justify-content: center;
 margin-bottom: 8px;
-padding-top: 32px;
 }
 
 .team-text {
 display: flex;
 justify-content: center;
-padding-bottom: 32px;
 }
 
 
@@ -315,6 +316,7 @@ background: #2E2F42;
 /* ------------------PORTFOLIO----------- */
 .gallery {
 display: flex;
+padding-top: 96px;
 padding-bottom: 120px;
 }
 .gallery-nav {
@@ -322,8 +324,7 @@ display: flex;
 margin-right: auto;
 margin-left: auto;
 justify-content: center;
-padding-bottom: 72px;
-padding-top: 96px; 
+margin-bottom: 72px;
 }
 .gallery-item {
 margin-right: 24px;
@@ -367,9 +368,7 @@ margin-right: 0;
 margin-bottom: 0;
 }
 
-.gallery-item-second>.about-title{
-padding-top: 32px;
-}
-.gallery-item-second>.about-text {
-padding-bottom: 32px;
+ .gallery-item-wrap {
+  padding-top: 32px;
+  padding-bottom: 32px;
  }
